@@ -41,7 +41,7 @@
 
 ## 🎯 Project Overview
 
-**CareerSync AI** is a production-ready full-stack SaaS platform that acts as a personal AI career coach. It combines a modern React frontend with a robust Spring Boot backend, powered by Google Gemini 1.5 Flash AI.
+**CareerSync AI** is a production-ready full-stack SaaS platform that acts as a personal AI career coach. It combines a modern React frontend with a robust Spring Boot backend, powered by Google Gemini 2.5 Flash AI.
 
 | Feature | Description |
 |---|---|
@@ -130,7 +130,7 @@ Use the AI chatbot as your 24/7 career advisor for any question — salary negot
 │  │  └─────────────┘   └──────────────┘   └─────────────────────┘  │ │
 │  │                                                                   │ │
 │  │              GeminiAiService (AI Layer)                          │ │
-│  │              ↕ Calls Google Gemini 1.5 Flash API                 │ │
+│  │              ↕ Calls Google Gemini 2.5 Flash API                 │ │
 │  └──────────────────────────────┬────────────────────────────────────┘ │
 │                                  │ JPA / Hibernate                     │
 │                                  ▼                                     │
@@ -143,7 +143,7 @@ Use the AI chatbot as your 24/7 career advisor for any question — salary negot
                                    │
                                    ▼ External API
                      ┌─────────────────────────────┐
-                     │  Google Gemini 1.5 Flash API │
+                     │  Google Gemini 2.5 Flash API │
                      │  generativelanguage.googleapis.com │
                      └─────────────────────────────┘
 ```
@@ -182,7 +182,7 @@ Use the AI chatbot as your 24/7 career advisor for any question — salary negot
 ### AI & Database
 | Technology | Purpose |
 |---|---|
-| Google Gemini 1.5 Flash | Resume analysis, JD matching, cover letters, interviews, roadmaps, chatbot |
+| Google Gemini 2.5 Flash | Resume analysis, JD matching, cover letters, interviews, roadmaps, chatbot |
 | MySQL 8.0 | Primary relational database |
 | HikariCP | Database connection pooling |
 
@@ -484,7 +484,7 @@ Service Layer (build structured prompt)
 GeminiAiService.generate(prompt)
        │
        ▼ HTTP POST to generativelanguage.googleapis.com
-Google Gemini 1.5 Flash API
+Google Gemini 2.5 Flash API
        │
        ▼ Raw response (may include markdown fences)
 stripMarkdownFences(response)
