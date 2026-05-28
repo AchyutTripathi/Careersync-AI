@@ -7,7 +7,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.x-brightgreen?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
 [![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?style=for-the-badge&logo=mysql)](https://mysql.com/)
-[![Gemini AI](https://img.shields.io/badge/Gemini-1.5%20Flash-purple?style=for-the-badge&logo=google)](https://ai.google.dev/)
+[![Gemini AI](https://img.shields.io/badge/Gemini-2.5%20Flash-purple?style=for-the-badge&logo=google)](https://ai.google.dev/)
 [![JWT](https://img.shields.io/badge/JWT-Auth-red?style=for-the-badge&logo=jsonwebtokens)](https://jwt.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
