@@ -1,0 +1,15 @@
+package com.careersync.repository;
+
+import com.careersync.entity.CareerRoadmap;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface CareerRoadmapRepository extends JpaRepository<CareerRoadmap, Long> {
+    List<CareerRoadmap> findByUserIdOrderByCreatedAtDesc(Long userId);
+    Optional<CareerRoadmap> findTopByUserIdOrderByCreatedAtDesc(Long userId);
+    Optional<CareerRoadmap> findByIdAndUserId(Long id, Long userId);
+}

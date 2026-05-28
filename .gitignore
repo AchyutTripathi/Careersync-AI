@@ -1,0 +1,13 @@
+# Frontend
+careersync-frontend/node_modules/
+careersync-frontend/dist/
+careersync-frontend/.env.local
+
+# Backend
+careersync-backend/target/
+careersync-backend/.env
+careersync-backend/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
