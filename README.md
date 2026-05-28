@@ -787,8 +787,8 @@ All endpoints return:
 
 **Achyut Tripathi**
 - 💼 Full Stack Developer — Java, Spring Boot, React
-- 🐙 GitHub: [@achyut](https://github.com/achyut)
-- 💼 LinkedIn: [linkedin.com/in/achyut-tripathi](https://linkedin.com/in/achyut-tripathi)
+- 🐙 GitHub: [@AchyutTripathi](https://github.com/AchyutTripathi)
+- 💼 LinkedIn: [linkedin.com/in/achyut-tripathi]([https://linkedin.com/in/achyut-tripathi](https://www.linkedin.com/in/achyut-tripathi-a63814249))
 
 ### Troubleshooting Quick Reference
 
